@@ -51,5 +51,9 @@ if __name__ == '__main__':
     try:
         # Testing our function
         rotate()
+        
+        #http://wiki.ros.org/turtlesim/Tutorials/Rotating%20Left%20and%20Right
+        
     except rospy.ROSInterruptException:
         pass    
+#http://wiki.ros.org/turtlesim/Tutorials/Moving%20in%20a%20Straight%20Line        

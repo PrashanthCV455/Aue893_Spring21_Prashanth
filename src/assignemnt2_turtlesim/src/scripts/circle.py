@@ -19,12 +19,12 @@ def move():
         vel_msg.linear.x = speed
     else:
         vel_msg.linear.x = -speed
-    #Since we are moving just in x-axis
+   
     vel_msg.linear.y = 0
     vel_msg.linear.z = 0
     vel_msg.angular.x = 0
     vel_msg.angular.y = 0
-    vel_msg.angular.z = 0
+    vel_msg.angular.z = 2 # angular velocity in z-axis for turtle to move in a circle
     
     while not rospy.is_shutdown():
 
