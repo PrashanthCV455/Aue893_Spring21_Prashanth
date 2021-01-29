@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgmock.so -o ../../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/prashanth/git_ws/Aue893_Spring21_Prashanth/build/lib ../../lib/libgtest.so -lpthread 

@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/prashanth/git_ws/Aue893_Spring21_Prashanth/devel -DCMAKE_INSTALL_PREFIX=/home/prashanth/git_ws/Aue893_Spring21_Prashanth/install -G Unix Makefiles
